@@ -1,0 +1,12 @@
+.footer {
+  background-color: #f3f3f3;
+  display: flex;
+}
+
+.footer_text {
+  color: #525252;
+  font-size: 12px;
+  font-weight: bold;
+  padding-top: 52px;
+  padding-bottom: 53px;
+}

@@ -1,0 +1,21 @@
+.cumbatron {
+  background: linear-gradient(180deg, #f26f49 0%, #f24949 100%);
+  color: #ffffff;
+}
+
+.cumbatron_container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 68px;
+    padding-bottom: 76px;
+}
+
+.cumbatron_title {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.cumbatron_description {
+  font-size: 36px;
+  font-weight: 500;
+}
