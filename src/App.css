@@ -2,9 +2,10 @@
   font-family: Montserrat;
   src: url("./font/MontserratAlternates-Regular.otf");
 } */
-.App {
-  text-align: center;
+html,
+body {
   font-family: Montserrat;
+  font-size: 14px;
 }
 
 .App-logo {

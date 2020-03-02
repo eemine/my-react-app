@@ -1,8 +1,16 @@
 import React from "react";
-import { Container } from "../components";
+import { Container, ForumBox } from "../components";
 
 function Home() {
-  return <Container></Container>;
+  return (
+    <Container>
+      <ForumBox
+        img="http://placeimg.com/300/200/animals"
+        categories="Animals"
+        topics="Cats"
+      />
+    </Container>
+  );
 }
 
 export default Home;

@@ -1,7 +1,21 @@
 import Header from "./header";
+import SignIn from "./signIn";
 import Container from "./container";
-import Cumbatron from "./cumbatron";
-import NewsBox from './newsBox';
+import Jumbotron from "./jumbotron";
+import ForumBox from "./forumBox";
+import Topics from "./topics";
 import Footer from "./footer";
+import Button from "./button";
+import Link from "./link";
 
-export { Header, Container, Cumbatron, NewsBox, Footer };
+export {
+  Header,
+  SignIn,
+  Container,
+  Jumbotron,
+  ForumBox,
+  Topics,
+  Footer,
+  Button,
+  Link
+};
