@@ -1,20 +1,18 @@
 import React from "react";
+import Container from "../container";
 import "./jumbotron.css";
 
-// class Jumbotron extends React.Component() {
-//   render() {
-//     return (
-//       <div className="jumbotron">
-//         {this.props.jumbotron &&
-//           this.props.jumbotron.map(item => {
-//             <div className="jumbotron_container">
-//               <div key="" className="jumbotron_title">{item.name}</div>;
-//               <div className="jumbotron_description">{item.description}</div>;
-//             </div>;
-//           })}
-//       </div>
-//     );
-//   }
-// }
+const Jumbotron = ({ title, description }) => (
+  <div className="jumbotron">
+    <Container>
+      <div className="jumbotron_container">
+        <div key="" className="jumbotron_title">
+          {title}
+        </div>
+        <div className="jumbotron_description">{description}</div>
+      </div>
+    </Container>
+  </div>
+);
 
 export default Jumbotron;

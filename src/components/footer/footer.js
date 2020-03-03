@@ -8,8 +8,8 @@ const Footer = () => (
     <Container>
         <div className="footer_text">Copyright &copy; 2020 Fox forum</div>
         <div className="footer_items">
-          <Link to="/about" text="About" />
-          <Link to="/contact" text="Contact" />
+          <Link url="/about" text="About" />
+          <Link url="/contact" text="Contact" />
         </div>
     </Container>
   </footer>
