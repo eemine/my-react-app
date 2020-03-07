@@ -1,11 +1,17 @@
 import React from "react";
-import { Topics, Container } from "../components";
+import { Topics, Container, Jumbotron } from "../components";
 
 function Category() {
   return (
-    <Container>
-      <Topics />
-    </Container>
+    <div>
+      <Jumbotron
+        title="Food"
+        description="Place where all tastes come together"
+      />
+      <Container>
+        <Topics />
+      </Container>
+    </div>
   );
 }
 export default Category;

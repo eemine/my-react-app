@@ -1,4 +1,4 @@
-.forumBox {
+.categoryBox {
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
   width: calc((100% - 90px) / 4);
   margin-bottom: 30px;
@@ -6,16 +6,16 @@
   border-radius: 5px;
 }
 
-.forumBox_image {
+.categoryBox_image {
   padding-bottom: 20px;
 }
 
-.forumBox_image img {
+.categoryBox_image img {
   width: 100%;
   border-radius: 5px 5px 0px 0px;
 }
 
-.forumBox_description {
+.categoryBox_description {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
