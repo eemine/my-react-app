@@ -4,10 +4,7 @@ import { Jumbotron } from "../components";
 function SignIn() {
   return (
     <div>
-      <Jumbotron
-        title="Sign in"
-        description="Get close to discussions"
-      />
+      <Jumbotron title="Sign in" description="Get close to discussions" />
     </div>
   );
 }

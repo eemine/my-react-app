@@ -1,13 +1,28 @@
 .categoryBox {
+  border-radius: 5px;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
-  width: calc((100% - 90px) / 4);
   margin-bottom: 30px;
   margin-top: 30px;
-  border-radius: 5px;
+  text-decoration: none;
+  width: calc((100% - 90px) / 4);
 }
 
 .categoryBox_image {
-  padding-bottom: 20px;
+  position: relative;
+}
+
+.categoryBox_title {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.4) 100%
+  );
+  bottom: 0;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px 0px 10px 15px;
+  position: absolute;
+  width: calc(100% - 15px);
 }
 
 .categoryBox_image img {
@@ -19,5 +34,17 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding-bottom: 30px;
+}
+
+.categoryBox_count {
+  color: #001c63;
+  font-weight: bold;
+  font-size: 48px;
+  margin-top: 20px;
+}
+
+.categoryBox_text {
+  color: #000000;
+  margin-bottom: 30px;
+  text-align: center;
 }

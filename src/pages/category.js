@@ -1,5 +1,5 @@
 import React from "react";
-import { Topics, Container, Jumbotron } from "../components";
+import { Categories, Container, Jumbotron } from "../components";
 
 function Category() {
   return (
@@ -9,7 +9,7 @@ function Category() {
         description="Place where all tastes come together"
       />
       <Container>
-        <Topics />
+        <Categories />
       </Container>
     </div>
   );
