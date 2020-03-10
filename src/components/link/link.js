@@ -3,9 +3,9 @@ import classNames from 'classnames';
 import { Link as RouterLink } from "react-router-dom";
 import "./link.css";
 
-const Link = ({ url, className, text }) => (
+const Link = ({ url, className, title }) => (
   <RouterLink to={url} className={classNames('link', className)}>
-    {text}
+    {title}
   </RouterLink>
 );
 

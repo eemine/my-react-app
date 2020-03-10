@@ -10,11 +10,11 @@ const Header = ({ url }) => (
     <Container>
       <div className="header_logo-container">
         <img className="header_logo" src={fox} alt="logo"></img>
-        <Link url="/" text="Fox forum" className="header_link" />
+        <Link url="/" title="Fox forum" className="header_link" />
       </div>
       <div className="header_items">
-        <Link url="/signup" text="Sign up" />
-        <Button onClick="" text="Sign in" />
+        <Link url="/signup" title="Sign up" />
+        <Button url="/signin" title="Sign in" />
       </div>
     </Container>
   </header>
