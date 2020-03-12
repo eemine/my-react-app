@@ -14,7 +14,7 @@ const Header = ({ url }) => (
       </div>
       <div className="header_items">
         <Link url="/signup" title="Sign up" />
-        <Button url="/signin" title="Sign in" />
+        <Button title="Sign in" />
       </div>
     </Container>
   </header>

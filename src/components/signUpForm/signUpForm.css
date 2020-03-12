@@ -1,0 +1,56 @@
+.signUpForm {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 50px 0;
+  width: 430px;
+}
+
+.signUpForm_text1 {
+  margin: 0 0 30px;
+  text-align: center;
+  width: 100%;
+}
+
+.buttonContainer {
+  margin: 15px 0 0 0;
+}
+
+.signUpForm_signup {
+  margin-left: auto;
+}
+
+.signUpForm_textContainer {
+  width: 100%;
+  text-align: center;
+}
+
+.signUpForm_text2 {
+  margin: 20px 0 25px;
+  position: relative;
+}
+
+.signUpForm_text2:before,
+.signUpForm_text2:after {
+  content: "";
+  border-bottom: 1px solid #e6e6e6;
+  width: 200px;
+  position: absolute;
+  left: 0;
+  top: 9px;
+  height: 1px;
+}
+
+.signUpForm_text2:after {
+    left: auto;
+    right: 0;
+  }
+
+  .signUpForm_text3{
+      margin: 0 0 15px;
+  }
+
+.signUpForm_signin {
+  width: 430px;
+  text-align: center;
+}

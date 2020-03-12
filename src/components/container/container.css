@@ -9,3 +9,8 @@
 .container.spaceBetween {
   justify-content: space-between;
 }
+
+.container.center {
+  justify-content: center;
+  align-items: center;
+}

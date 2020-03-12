@@ -1,5 +1,5 @@
 import React from "react";
-import { Jumbotron } from "../components";
+import { Jumbotron, Container, SignUpForm } from "../components";
 
 function SignUp() {
   return <div>
@@ -7,6 +7,9 @@ function SignUp() {
         title="Sign up"
         description="Get better experience, customizations and more"
       />
+      <Container center>
+        <SignUpForm/>
+      </Container>
   </div>;
 }
 
